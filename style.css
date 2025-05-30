@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.navbar-brand img {
+    margin-left: 120px;
+}
+
+.nav-item .home {
+    color: red !important;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+}
+
+.navsearch {
+    background-color: red;
+    padding: 30px;
+}
+
+.carousel-indicators button {
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    border-radius: 50% !important;
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.carousel-indicators .active {
+    background-color: red !important;
+
+}
+
+.featuresitem,
+.discover {
+    padding: 80px 0 80px 0;
+}
+
+.featicon {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    text-align: center;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.featuresbox {
+    width: 250px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.carditem,
+.itemimg {
+    border: none;
+    border-radius: 0 !important;
+
+}
+
+.itemtxt {
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.itemsnd {
+    color: red;
+}
+
+.footernav {
+    background-color: black;
+    color: white;
+}
+
+.footerimg {
+    height: 45px;
+}
+
+.footeertxt {
+    font-family: 'Dancing Script', cursive;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.footertext {
+    font-size: 13px;
+    font-weight: 300;
+    color: #ccc;
+}
+.footerlist{
+    gap: 70px;
+}
+.footeertxt{
+    padding-right: 250px;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+  color: white;
+  height: 100%;
+}
+
+.custom-card img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-section {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+}
+.explorenav{
+  display: flex;
+  justify-content: center;
+}
+.explore{
+    margin-top: 80px;
+}
+
+.featuresbox:hover{
+    background-color: red;
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar-brand img {
+        margin-left: 20px;
+    }
+
+    .carditem {
+        width: 80% !important;
+    }
+      .footerlist {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .footersec1,
+    .footersec2,
+    .footersec3,
+    .footersec4 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+     .footerdiv span {
+        font-size: 14px;  
+    }
+    .footeertxt{
+        justify-content: center !important;
+        padding: 0px;
+        align-items: center;
+    }
+    
+}
+@media (max-width: 768px){
+    .footernav{
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+      .custom-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .custom-card img {
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+
+
+
+
+}
+@media (max-width: 576px) {
+    .navbar-brand img {
+        margin-left: 5px;
+    }
+
+    .featuresbox {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .carditem {
+        width: 80% !important;
+    }
+
+
+}
