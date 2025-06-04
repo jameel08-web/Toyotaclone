@@ -134,9 +134,48 @@
 .featuresbox:hover{
     background-color: red;
 }
+  .custom-tab .nav-link {
+    font-size: 16px;
+    padding: 20px 25px;
+    border: none !important;
+    text-align: center;
+    color: black;
+    margin-right: 15px;
+    background: none !important;
+   
+  }
 
+  .custom-tab .nav-link i {
+    font-size: 32px;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    
+  }
 
+  .custom-tab .nav-link span {
+    color: black;
+  }
 
+  .custom-tab .nav-link.active {
+    /* border-bottom: 3px solid #007bff; blue underline */
+    color: black !important;
+     border-bottom: 5px solid black !important;
+    transition: border-bottom 0.3s ease;
+  }
+
+  .custom-tab .nav-link.active i {
+    color: black;
+  }
+
+  .custom-tab .nav-link.active span {
+    color: black;
+  }
+
+   .custom-tab .nav-link:hover{
+    font-size: 18px;
+    cursor: pointer;
+   }
 @media (max-width: 992px) {
     .navbar-brand img {
         margin-left: 20px;
